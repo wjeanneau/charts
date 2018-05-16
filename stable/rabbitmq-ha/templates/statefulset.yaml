@@ -52,6 +52,9 @@ spec:
             - name: amqp
               protocol: TCP
               containerPort: 5672
+              {{- if .Values.rabbitmqNodeHostPortBinding }}
+              hostPort: 5672
+              {{- end }}
             - name: http
               protocol: TCP
               containerPort: {{ .Values.rabbitmqManagerPort }}

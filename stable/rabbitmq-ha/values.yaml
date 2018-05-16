@@ -27,6 +27,9 @@ rabbitmqEpmdPort: 4369
 ## Node port
 rabbitmqNodePort: 5672
 
+## Set to true to expose amqp port on the node 
+# rabbitmqNodeHostPortBinding: false
+
 ## Manager port
 rabbitmqManagerPort: 15672
 

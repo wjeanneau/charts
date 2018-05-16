@@ -91,6 +91,7 @@ and their default values.
 | `rabbitmqManagerPort`              | RabbitMQ Manager port                                           | `15672`                                                  |
 | `rabbitmqMemoryHighWatermark`      | Memory high watermark                                           | `256MB`                                                  |
 | `rabbitmqNodePort`                 | Node port                                                       | `5672`                                                   |
+| `rabbitmqNodeHostPortBinding`      | Enable hostPort binding to expose amqp port                     | `false`                                                  |
 | `rabbitmqPassword`                 | RabbitMQ application password                                   | _random 10 character long alphanumeric string_           |
 | `rabbitmqSTOMPPlugin.config`       | STOMP configuration                                             | ``                                                       |
 | `rabbitmqSTOMPPlugin.enabled`      | Enable STOMP plugin                                             | `false`                                                  |
